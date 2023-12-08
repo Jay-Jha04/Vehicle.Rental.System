@@ -4,4 +4,4 @@ This application serves as a platform for renting vehicles. It operates as an on
 
 ## Class Diagram
 
-![Application Screenshot](https://github.com/Jay-Jha04/Vehicle.Rental.System/ApplicationScreenshot/InitialLLD.png)
+![Application Screenshot](https://github.com/Jay-Jha04/Vehicle.Rental.System/blob/master/ApplicationScreeenshot/InitialLLD.png)
