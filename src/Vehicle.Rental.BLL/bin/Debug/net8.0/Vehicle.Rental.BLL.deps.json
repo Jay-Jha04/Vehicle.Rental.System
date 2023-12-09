@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Vehicle.Rental.BLL/1.0.0": {
+        "runtime": {
+          "Vehicle.Rental.BLL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vehicle.Rental.BLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

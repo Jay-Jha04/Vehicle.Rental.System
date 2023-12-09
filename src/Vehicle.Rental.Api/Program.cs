@@ -1,8 +1,23 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage;
+using Vehicle.Rental.DataStorage.DBcontext;
+using Vehicle.Rental.DataStorage.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
 builder.Services.AddControllers();
+
+builder.Services.AddDbContext<VehicleRentalDbContext>(options =>
+{
+    var config = builder.Configuration;
+    var connectionString = config.GetConnectionString("database");
+
+    options.UseSqlServer(connectionString);
+});
+
+builder.Services.AddAllDependencyInjection();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

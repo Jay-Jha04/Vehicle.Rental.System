@@ -1,0 +1,12 @@
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\bin\Debug\net8.0\Vehicle.Rental.BLL.deps.json
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\bin\Debug\net8.0\Vehicle.Rental.BLL.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\bin\Debug\net8.0\Vehicle.Rental.BLL.pdb
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.AssemblyInfoInputs.cache
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.AssemblyInfo.cs
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.csproj.CoreCompileInputs.cache
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.sourcelink.json
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\refint\Vehicle.Rental.BLL.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\Vehicle.Rental.BLL.pdb
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.BLL\obj\Debug\net8.0\ref\Vehicle.Rental.BLL.dll

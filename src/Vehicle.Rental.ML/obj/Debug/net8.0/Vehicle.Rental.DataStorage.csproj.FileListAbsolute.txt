@@ -1,0 +1,16 @@
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\bin\Debug\net8.0\Vehicle.Rental.DataStorage.dll.config
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\bin\Debug\net8.0\Vehicle.Rental.DataStorage.deps.json
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\bin\Debug\net8.0\Vehicle.Rental.DataStorage.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\bin\Debug\net8.0\Vehicle.Rental.DataStorage.pdb
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.AssemblyInfoInputs.cache
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.AssemblyInfo.cs
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.csproj.CoreCompileInputs.cache
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.sourcelink.json
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\refint\Vehicle.Rental.DataStorage.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.pdb
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\ref\Vehicle.Rental.DataStorage.dll
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.csproj.AssemblyReference.cache
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\bin\Debug\net8.0\Vehicle.Rental.DataStorage.runtimeconfig.json
+D:\Vehicle\Vehicle.Rental.System\src\Vehicle.Rental.ML\obj\Debug\net8.0\Vehicle.Rental.DataStorage.genruntimeconfig.cache

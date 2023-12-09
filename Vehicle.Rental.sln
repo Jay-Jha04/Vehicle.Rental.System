@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.Api", "src\V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.BLL", "src\Vehicle.Rental.BLL\Vehicle.Rental.BLL.csproj", "{BC2A80BF-94DD-4871-9210-7C2C63D3B0A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.ML", "src\Vehicle.Rental.ML\Vehicle.Rental.ML.csproj", "{41F0F3E0-F46F-453F-82FD-AB2A07B6E112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.DataStorage", "src\Vehicle.Rental.ML\Vehicle.Rental.DataStorage.csproj", "{41F0F3E0-F46F-453F-82FD-AB2A07B6E112}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

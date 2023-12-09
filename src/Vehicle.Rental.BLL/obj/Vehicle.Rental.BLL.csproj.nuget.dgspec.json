@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Desktop\\DRIVE-2\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj": {}
+    "D:\\Vehicle\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Desktop\\DRIVE-2\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj": {
+    "D:\\Vehicle\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Desktop\\DRIVE-2\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj",
+        "projectUniqueName": "D:\\Vehicle\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj",
         "projectName": "Vehicle.Rental.BLL",
-        "projectPath": "C:\\Users\\Admin\\Desktop\\DRIVE-2\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Desktop\\DRIVE-2\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\obj\\",
+        "projectPath": "D:\\Vehicle\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\Vehicle.Rental.BLL.csproj",
+        "packagesPath": "C:\\Users\\piyushgarg01\\.nuget\\packages\\",
+        "outputPath": "D:\\Vehicle\\Vehicle.Rental.System\\src\\Vehicle.Rental.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\piyushgarg01\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://lutronartifactory.jfrog.io/artifactory/api/nuget/designer-nuget-prod-local": {},
+          "https://lutronartifactory.jfrog.io/artifactory/api/nuget/nuget": {}
         },
         "frameworks": {
           "net8.0": {
