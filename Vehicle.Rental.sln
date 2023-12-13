@@ -7,7 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.Api", "src\V
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.BLL", "src\Vehicle.Rental.BLL\Vehicle.Rental.BLL.csproj", "{BC2A80BF-94DD-4871-9210-7C2C63D3B0A9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.ML", "src\Vehicle.Rental.ML\Vehicle.Rental.ML.csproj", "{41F0F3E0-F46F-453F-82FD-AB2A07B6E112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vehicle.Rental.DAL", "src\Vehicle.Rental.ML\Vehicle.Rental.DAL.csproj", "{41F0F3E0-F46F-453F-82FD-AB2A07B6E112}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52EB0BE4-C9B9-41A4-A207-E434C6FC7E18}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
