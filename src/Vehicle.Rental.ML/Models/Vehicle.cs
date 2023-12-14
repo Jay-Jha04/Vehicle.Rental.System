@@ -26,7 +26,7 @@ namespace VehicleHub.Rental.DAL.Models
         public byte NoOfSeats { get; set; }
 
         public GasType GasType { get; set; }
-        
+
         public bool IsFastrack { get; set; }
     }
 }
