@@ -1,11 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using VehicleType = VehicleHub.Rental.DAL.Models.Vehicle;
 
-namespace Vehicle.Rental.DAL.Context
+namespace VehicleHub.Rental.DAL.Context
 {
     public class VehicleRentalDbContext : DbContext
     {
@@ -14,5 +10,7 @@ namespace Vehicle.Rental.DAL.Context
         {
             
         }
+
+        public DbSet<VehicleType> Vehicles { get; set; } 
     }
 }

@@ -1,4 +1,4 @@
-using Vehicle.Rental.DAL.Extensions;
+using VehicleHub.Rental.DAL.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
