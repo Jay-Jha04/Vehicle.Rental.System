@@ -28,5 +28,15 @@ namespace VehicleHub.Rental.DAL.Models
         public GasType GasType { get; set; }
 
         public bool IsFastrack { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int VehicleInventoryId { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public VehicleInventory VehicleInventory { get; set; }
     }
 }

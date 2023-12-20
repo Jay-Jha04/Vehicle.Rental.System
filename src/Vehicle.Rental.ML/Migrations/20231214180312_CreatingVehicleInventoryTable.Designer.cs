@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using VehicleHub.Rental.DAL.Context;
 
@@ -10,9 +11,11 @@ using VehicleHub.Rental.DAL.Context;
 namespace VehicleHub.Rental.DAL.Migrations
 {
     [DbContext(typeof(VehicleRentalDbContext))]
-    partial class VehicleRentalDbContextModelSnapshot : ModelSnapshot
+    [Migration("20231214180312_CreatingVehicleInventoryTable")]
+    partial class CreatingVehicleInventoryTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

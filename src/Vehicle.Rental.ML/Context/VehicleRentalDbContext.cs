@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Reflection.Metadata.Ecma335;
 using VehicleHub.Rental.DAL.Models;
-using VehicleType = VehicleHub.Rental.DAL.Models.Vehicle;
 
 namespace VehicleHub.Rental.DAL.Context
 {
@@ -12,16 +12,22 @@ namespace VehicleHub.Rental.DAL.Context
             
         }
 
-        public DbSet<VehicleType> Vehicles { get; set; }
+        public DbSet<Vehicle> Vehicles { get; set; }
+        public DbSet<VehicleInventory> VehicleInventories { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<VehicleType>()
+            modelBuilder.Entity<Vehicle>()
                 .Property(v => v.GasType)
                 .HasConversion(
                     gasType => gasType.ToString(),
                     gasType => (GasType)Enum.Parse(typeof(GasType), gasType)
                 );
+
+            modelBuilder.Entity<Vehicle>()
+                .HasOne(v => v.VehicleInventory)
+                .WithMany(vi => vi.Vehicles)
+                .HasForeignKey(v => v.VehicleInventoryId);
         }
     }
 }
