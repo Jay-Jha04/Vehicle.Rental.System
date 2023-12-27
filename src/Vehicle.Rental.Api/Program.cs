@@ -1,4 +1,10 @@
+using VehicleHub.Rental.DAL.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+
+//Add configuration sources 
+builder.Configuration.AddJsonFile("appsetting.json", optional: true, reloadOnChange: true);
+
 
 // Add services to the container.
 
@@ -6,6 +12,8 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddVehicleRentalContext(builder.Configuration);
 
 var app = builder.Build();
 
