@@ -1,3 +1,5 @@
+using Microsoft.Extensions.DependencyInjection;
+using VehicleHub.Rental.Api.ViewModel;
 using VehicleHub.Rental.DAL.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,8 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 //Add configuration sources 
 builder.Configuration.AddJsonFile("appsetting.json", optional: true, reloadOnChange: true);
 
-
-// Add services to the container.
+//Add services to the container
+builder.Services.AddAutoMapper(typeof(Program));
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
